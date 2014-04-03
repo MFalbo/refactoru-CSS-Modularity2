@@ -1,1 +1,114 @@
 /* ADD YOUR STYLES HERE */
+/*6. Horizontally Spaced*/
+.horizontally-centered{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2%;
+}
+
+.horizontally-centered:first-child{
+	padding-left: 10%;
+}
+
+.horizontally-centered:nth-child(4){
+	padding-right: 3%;
+}
+
+/*7. Vertically Spaced*/
+.vertically-centered{
+	padding: 20% 0;
+}
+
+.vertically-centered.column-top{
+	padding-bottom: 0;
+}
+
+.vertically-centered.column-bottom{
+	padding-top: 0;
+	padding-left: 5%;
+}
+
+/*8. Horizontal List*/
+.unstyled-list{
+	list-style: none;
+}
+/*Look into how to align horizontal without targeting individual list items*/
+.unstyled-list li{
+	display: inline;
+}
+
+/*9. Buttons*/
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+	background-color: #E78787;
+	border-radius: 5px;
+	border: none;
+}
+
+.btn-lrg{
+	width: 28%;
+	padding: 25px 0;
+	font-size: 1.5em;
+}
+
+.btn-med{
+	padding: 10px 0;
+	width: 20%;
+}
+
+.btn-sml{
+	padding: 5px 0;
+	width: 5%;
+	font-size: .75em;
+}
+
+/*10. Navigation*/
+/*Carry over of Horizontal list and Button classes*/
+
+.nav-bar{
+	background-color: #E78787;
+	text-align: center;
+	width: 85%;
+	padding-left: 0;
+	border-radius: 5px;
+}
+
+.nav-bar .btn{
+	position: relative;
+	padding: 10px;
+	margin: 0 4%;
+}
+
+.nav-bar .btn:hover{
+	top: -4px;
+	right: -4px;
+	background-color: #F8AAAA;
+	box-shadow: -4px 4px 5px #FFF;
+
+}
+
+/*11. Pagination*/
+/*Carry over Horizontal list class*/
+
+.page-btn{
+	color: #E78787;
+	font-size: 1.2em;
+	margin: 0 5px;
+}
+
+.page-step{
+	text-decoration: none;
+}
+
+.page-current{
+	border-bottom: 5px solid #E78787;
+}
+
+
+
+
+
+	 
