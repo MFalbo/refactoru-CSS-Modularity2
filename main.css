@@ -120,8 +120,23 @@
 
 /*12. Comment Stream*/
 
+.comment{
+	overflow: hidden;
+	margin: 10px 0;
+}
 
+.avatar{
+	float: left;
+	margin-right: 10px;
+}
 
+.sub-comment{
+	position: relative;
+	overflow: hidden;
+}
 
+.last-sub{
+	margin-top: 10px;
+}
 
 	 
